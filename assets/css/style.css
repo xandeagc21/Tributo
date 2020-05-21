@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: #b8b3b3;
+} 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+      
+    
+}
+.logo{
+    display: flex;    
+    background-color: rgb(255, 238, 0);
+    width: 100%; 
+    height: 220px; 
+    justify-content: center;  
+    
+}
+.logo img{
+    height: 220px;
+    
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    
+}
+section{
+    
+    display: flex;
+    justify-content: center;
+}
+section .page{
+    
+    background-color: white;
+    width: 100%;      
+     
+}
+.page img {
+    
+    padding: 20px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+       
+}
+.page_text a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.page_text,h1 , p{
+    
+    
+    background-color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.column {
+    flex-direction: column;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+ .footer_biografia{
+     display: flex;
+     flex-wrap: wrap;
+     background-color: white;
+      
+ }
+.conteiner iframe{
+     margin: 5px;    
+    
+ }
+ .images_ma{
+    
+     display: flex;
+     background-color: white;
+ }
+ .images_ma img{
+     flex: 1;
+     margin: 10px;
+     height: 450px;
+ }
+ .images_ma h2{
+flex: 1;
+background-color: white;
+color: black;
+font-size: 18px;
+ }
+ .images_ma a {
+     background-color: white;
+ }
+ .rodape{
+     width: 100%;
+     height: 40px;
+     background-color: rgb(125, 243, 96);
+     margin-top: 30px;
+     font-size: 10px;
+     padding: 15px;
+     pa
+ }
